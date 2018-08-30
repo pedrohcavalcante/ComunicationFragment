@@ -6,6 +6,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <fragment
+        android:id="@+id/topFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.example.androidbti.comunicationfragment.TopFragment"
+        />
+
+    <fragment
+        android:id="@+id/bottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:name="com.example.androidbti.comunicationfragment.BottomFragment"
+        />
+
 
 
 </LinearLayout>
